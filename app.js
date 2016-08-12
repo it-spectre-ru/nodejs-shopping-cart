@@ -11,7 +11,8 @@ var routes = require('./routes/index');
 
 var app = express();
 
-mongoose.connect('localhost:27017/shopping');
+mongoose.Promise = global.Promise;
+mongoose.connect('localhost:8088/shopping');
 
 // view engine setup
 app.engine('.hbs', expressHbs({
