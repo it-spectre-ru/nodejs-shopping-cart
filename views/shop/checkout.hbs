@@ -2,7 +2,7 @@
 	<div class="col-sm-6 col-md-4 col-md-offset-4 col-sm-offset-3">
 		<h1>Проверка</h1>
 		<h4>Сумма всего: ${{total}}</h4>
-		<div id="charge-error" class="alert alert-danger {{#if noError}}hidden{{/if}}">
+		<div id="charge-error" class="alert alert-danger {{#if noError}}hidden{{/if}}"> <!--noError in ./routes/index.js -- res.render('shop/checkout'-->
 			{{errMsg}}
 		</div>
 		<form action="/checkout" method="post" id="checkout-form">
@@ -60,5 +60,6 @@
 	</div>
 </div>
 
+<!-- + Stripe Verifying Credit Cards -->
 <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 <script type="text/javascript" src="javascripts/checkout.js"></script>
