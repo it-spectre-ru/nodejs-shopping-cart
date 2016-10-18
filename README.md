@@ -44,4 +44,4 @@ https://bitbucket.org/stasok/shopping-cart/pull-requests/ - принимаю п�
 
 
 #### Смотрите также
-* [Лицензия](LICENSE.md)
+* [Лицензия](./LICENSE.MD)
