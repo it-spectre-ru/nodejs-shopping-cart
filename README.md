@@ -33,14 +33,14 @@
 
 
 #### Установка и настройка
-* *git clone* https://stasok@bitbucket.org/stasok/shopping-cart.git - **скопируйте репозиторий к себе**
+* *git clone* https://github.com/it-spectre-ru/nodejs-shopping-cart.git - **скопируйте репозиторий к себе**
 * *cd shopping-cart* - **перейдите в папку с проектом**
 * *npm i*  - **установите зависимости**
 * *в файлах app.js и product-seed.js измените путь до mongo db*  - **вот так -  localhost:8088/shopping **
 * *npm start* - **старт приложения**
 
 #### Получить помощь
-https://bitbucket.org/stasok/shopping-cart/pull-requests/ - принимаю пожелания и замечания.
+[Ваши пожелания и замечания](https://github.com/it-spectre-ru/nodejs-shopping-cart/pulls)
 
 
 #### Смотрите также
